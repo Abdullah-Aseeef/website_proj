@@ -1,4 +1,5 @@
 body{
+    font-family: sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -8,15 +9,22 @@ body{
 body .upper{
     padding: 0px 10%;
 }
-
-#header{
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    background-color: #1f2937;
-    align-items: center;
+p{
+    margin: 0px;
 }
 
+#header,#sec1{
+    display: flex;
+    justify-content: space-between;
+    /* color: white; */
+    color: #e5e7eb;
+    background-color: #1f2937;
+    font-size: 18px;
+    align-items: center;
+}
+#logo{
+    font-size: 24px;
+}
 ul{
     display: flex;
     justify-content: space-between;
@@ -24,6 +32,47 @@ ul{
     list-style-type: none;
 }
 a{
-    color: white;
+    color: #e5e7eb;
     text-decoration: none;
+}
+
+#sec1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#sec1 div{
+    max-width: 50%;
+    margin: 0px;
+    padding: 0px;
+    flex-grow: 1;
+}
+#sec1 div h1{
+    /* max-width: 50%; */
+    color: #f9faf8;
+    font-size: 48px;
+    margin: 0px;
+    padding: 0px;
+}
+.right-sec{
+    background-color: #566477;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: small;
+    text-align: center;
+
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    padding: 1% 5%;
+    font-size: 18px;
+
+}
+button:hover{
+    background-color: white;
+    color: #3882f6;
 }
