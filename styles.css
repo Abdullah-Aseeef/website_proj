@@ -125,3 +125,13 @@ h2{
     text-align: end;
     font-weight: lighter;
 }
+
+#footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1f2937;
+    color: white;
+    font-size: small;
+
+}
