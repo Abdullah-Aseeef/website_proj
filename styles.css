@@ -1,8 +1,29 @@
 body{
-    padding: 0px 10%;
+    margin: 0;
     display: flex;
     flex-direction: column;
     flex-basis: auto;
     justify-content: space-between;
+}
+body .upper{
+    padding: 0px 10%;
+}
 
+#header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #1f2937;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
